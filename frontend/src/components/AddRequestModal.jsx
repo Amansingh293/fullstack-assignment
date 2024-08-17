@@ -11,7 +11,7 @@ const AddRequestModal = ({ createRequest }) => {
   const dispatch = useDispatch();
   return (
     <Modal
-      title="Form Modal"
+      title="Submit a request"
       visible={modalView}
       onCancel={() => dispatch(changeToFalse())}
       footer={null}
